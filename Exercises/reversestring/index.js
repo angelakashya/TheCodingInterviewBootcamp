@@ -1,7 +1,7 @@
-// // ---Directions
+// ---Directions
 // Given a String, return a new string with the reversed 
-//order of characters
-//--- Examples
+// order of characters
+// --- Examples
 // reverse('apple') === 'leppa'
 // reverse('hello') === 'olleh'
 // reverse('Greetings!') === '!sgniteerG'
@@ -39,8 +39,8 @@ function reverse(str) {
         return character + reversed;
     }, '');
 
-    //Puting all in one line:
-    //return str.split('').reduce((rev, char) => char + rev, '');
+    // Puting all in one line:
+    // return str.split('').reduce((rev, char) => char + rev, '');
 }
 
 module.exports = reverse;
